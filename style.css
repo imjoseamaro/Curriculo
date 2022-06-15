@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    background-color: rgba(0,0,0);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width:100% ;
+}
+.navbar .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 420px;
+}
+
+.social {
+    padding-left: 450px;
+}
+.redes {
+    color: white;
+    text-decoration: none;
+}
+
+/*Showcase*/
+
+#showcase {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: color;
+}
+
+.showcase-text {
+    margin-left: 40px;
+}
+
+#showcase .showcase-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Reem Kufi", sans-serif;
+}
+
+.showcase-container .round {
+    width: 400px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#showcase-more {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: color;
+}
+
+.showcase-more-title {
+    padding-left: 35px;
+}
+
+.showcase-more-text {
+    padding-left: 35px;
+    padding-top: 18px;
+}
+
+/*Showcase2*/
+
+#showcase2 {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 45px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 350px;
+    color: black;
+    background-color: rgba(255, 255, 255);
+}
+
+.sobremim-menu  {
+    padding-right: 110px;
+}
+
+#showcase2 .sobremim-menu-item {
+    display: flex;
+    list-style: none;
+}
+
+/*Showcase3*/
+
+#showcase3 {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 45px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    background-color: rgba(0, 0, 0);
+}
+
+.conhecimentos {
+    padding-right: 820px;
+}
+
+#showcase3 .conhecimentos-menu-item {
+    display: flex;
+    margin-bottom: 10px;
+    list-style: none;
+}
